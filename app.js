@@ -1,10 +1,10 @@
 const express=require('express');
 const Web3=require('web3');
-const handlebars=require('handlebars');
+const hbs=require('hbs');
 
 const app = express();
 
-app.set('view engine', 'handlebars');
+app.set('view engine', 'hbs');
 
 if (typeof web3 !== 'undefined') {
   web3 = new Web3(web3.currentProvider);

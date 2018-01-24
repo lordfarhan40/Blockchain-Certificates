@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/lordfarhan40/Blockchain-Certificates/issues"
   },
-  "homepage": "https://github.com/lordfarhan40/Blockchain-Certificates#readme"
+  "homepage": "https://github.com/lordfarhan40/Blockchain-Certificates#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "web3": "^0.20.4"
+  }
 }
