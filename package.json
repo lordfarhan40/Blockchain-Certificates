@@ -1,9 +1,22 @@
 {
-  "name": "eth-cert",
-  "version": "1.0",
-  "dependencies": {
-    "express": "^4.16.2",
-    "hbs": "^4.0.1",
-    "web3": "^0.20.4"
-  }
+  "name": "blockchain-certificates",
+  "version": "1.0.0",
+  "description": "A blockchain app to store and view certificates in ethereum blockchain",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordfarhan40/Blockchain-Certificates.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "farhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordfarhan40/Blockchain-Certificates/issues"
+  },
+  "homepage": "https://github.com/lordfarhan40/Blockchain-Certificates#readme"
 }
